@@ -90,7 +90,8 @@ int main()
     // memset(t,-1,sizeof(t));
     // cout<<lcs_iterative("abcdgh","abedfha",6,7);
     cout<<"*******\n";
-    printLCS("abcef","abcdaf",5,6);
+    //printLCS("abcef","abcdaf",5,6);
+    printLCS("acbcf","abcdaf",5,6);
     for(int i=0;i<6;i++)
     {
         for(int j=0;j<7;j++)
